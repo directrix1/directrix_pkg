@@ -1,0 +1,5 @@
+build/
+directrix_pkg.egg-info/
+dist/
+*.pyc
+*.swp
