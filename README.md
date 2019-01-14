@@ -21,7 +21,7 @@ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 To install from PyPI test server execute:
 
 ```
-pip install --index-url https://test.pypi.org/simple/ example_pkg
+pip install --index-url https://test.pypi.org/simple/ directrix_pkg
 ```
 
 To upload to PyPI production server execute:
@@ -33,5 +33,5 @@ twine upload dist/*
 To install from PyPI production server execute:
 
 ```
-pip install example_pkg
+pip install directrix_pkg
 ```
